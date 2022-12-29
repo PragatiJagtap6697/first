@@ -1,0 +1,14 @@
+package DLL;
+
+public class test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+DLL d=new DLL();
+d.insertAtEnd(15);
+d.insertAtEnd(65);
+d.insertAtEnd(69);
+d.display();
+	}
+
+}

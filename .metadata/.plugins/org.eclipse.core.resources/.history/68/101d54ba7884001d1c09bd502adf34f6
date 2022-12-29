@@ -1,0 +1,24 @@
+
+public class MergeSort {
+	public static void conquer(int arr[],int si,int mid,int ei) {
+		int merger[]=new int[ei-si+1];
+		
+	}
+	public static void divide(int arr,int si,int ei) {
+		if(si>ei) {
+			return;
+		}
+		int mid = si+(ei-si)/2;
+		divide=(arr,si,mid);
+		divide=(arr,mid+1,ei);
+		conquer(arr,si,mid,ei);
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int arr[]= {5,98,41,1,64,3,7};
+	
+	int n=arr.length;
+	}
+}

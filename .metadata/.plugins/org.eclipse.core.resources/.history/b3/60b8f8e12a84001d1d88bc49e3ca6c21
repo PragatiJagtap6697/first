@@ -1,0 +1,23 @@
+package SLL;
+import java.util.Scanner;
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+SLL s=new SLL();
+Scanner sc=new Scanner(System.in);
+boolean exit=false;
+ while(!exit) {
+	 System.out.println("1.Insert element 2.");
+	 switch(sc.nextInt()) {
+	 case 1:
+		 s.display();
+		 break;
+	 case 10:
+		 exit=true;
+		 break;
+	 }
+ }
+	}
+
+}

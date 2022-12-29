@@ -1,0 +1,23 @@
+
+public class QuickSort {
+	public static int partition(int arr[],int low,int high) {
+		
+	}
+public static void QuickSort(int arr[],int low,int high) {
+	if(low<high) {
+		int pivot=partition(arr,low,high);
+		QuickSort(arr,low,pivot-1);
+	
+		}
+	
+	
+}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int arr[]= {4,8,75,12,1,9};
+int n=arr.length;
+QuickSort(arr,0,n-1);
+	}
+
+}

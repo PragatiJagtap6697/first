@@ -1,0 +1,8 @@
+package SLL;
+
+public class SLL {
+private Node head;
+public SLL() {
+	head=null;
+}
+}

@@ -1,0 +1,23 @@
+package SLL;
+
+public class SLL {
+private Node head;
+public SLL() {
+	head=null;
+}
+public boolean insert(int data) {
+	Node newnode=new Node(data);
+	if(newnode==null) {
+		return false;
+	}
+	if(head==null) {
+		head=newnode;
+	}
+	Node last=head;
+	while(last.getNext()!=null) {
+		last=last.getNext();
+		return true;
+	}
+	last.setNext(newnode);
+}
+}

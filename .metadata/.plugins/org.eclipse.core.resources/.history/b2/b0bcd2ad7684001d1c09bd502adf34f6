@@ -1,0 +1,9 @@
+
+public class MergeSort {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int arr[]= {5,98,41,1,64,3,7};
+	}
+
+}
